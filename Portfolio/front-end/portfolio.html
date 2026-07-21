@@ -1,2 +1,238 @@
-<!--This is to serve as the structure 
-for the portfolio page of the website-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse my portfolio of game development projects showcasing diverse skills in game programming and design.">
+    <title>Portfolio - Game Developer Projects</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Ryan Thompson</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Hero Section -->
+    <section class="portfolio-hero">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <p class="subtitle">A showcase of game development projects and technical expertise</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="game">Games</button>
+                <button class="filter-btn" data-filter="tool">Tools & Utilities</button>
+                <button class="filter-btn" data-filter="system">Game Systems</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Projects -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="game">
+                    <div class="project-card">
+                        <div class="project-image placeholder"></div>
+                        <div class="project-info">
+                            <h3>Project Title 1</h3>
+                            <p class="project-date">Year</p>
+                            <p class="project-description">
+                                A brief description of the game or project. Explain the key features, technologies used, and your role in the development.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Unity</span>
+                                <span class="tag">C#</span>
+                                <span class="tag">Game Design</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Project</a>
+                                <a href="#" class="project-link">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="game">
+                    <div class="project-card">
+                        <div class="project-image placeholder"></div>
+                        <div class="project-info">
+                            <h3>Project Title 2</h3>
+                            <p class="project-date">Year</p>
+                            <p class="project-description">
+                                A brief description of the game or project. Explain the key features, technologies used, and your role in the development.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Unreal Engine</span>
+                                <span class="tag">C++</span>
+                                <span class="tag">3D Graphics</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Project</a>
+                                <a href="#" class="project-link">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="system">
+                    <div class="project-card">
+                        <div class="project-image placeholder"></div>
+                        <div class="project-info">
+                            <h3>Project Title 3</h3>
+                            <p class="project-date">Year</p>
+                            <p class="project-description">
+                                A brief description of the system or tool. Explain the functionality, architecture, and technical challenges overcome.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">C#</span>
+                                <span class="tag">AI Systems</span>
+                                <span class="tag">Architecture</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Project</a>
+                                <a href="#" class="project-link">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="tool">
+                    <div class="project-card">
+                        <div class="project-image placeholder"></div>
+                        <div class="project-info">
+                            <h3>Project Title 4</h3>
+                            <p class="project-date">Year</p>
+                            <p class="project-description">
+                                A brief description of the tool or utility. Explain its purpose, features, and how it improves the development workflow.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Tool Development</span>
+                                <span class="tag">Automation</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Project</a>
+                                <a href="#" class="project-link">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="game">
+                    <div class="project-card">
+                        <div class="project-image placeholder"></div>
+                        <div class="project-info">
+                            <h3>Project Title 5</h3>
+                            <p class="project-date">Year</p>
+                            <p class="project-description">
+                                A brief description of the game or project. Explain the key features, technologies used, and your role in the development.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Web Game</span>
+                                <span class="tag">HTML5</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Project</a>
+                                <a href="#" class="project-link">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="system">
+                    <div class="project-card">
+                        <div class="project-image placeholder"></div>
+                        <div class="project-info">
+                            <h3>Project Title 6</h3>
+                            <p class="project-date">Year</p>
+                            <p class="project-description">
+                                A brief description of the system or tool. Explain the functionality, architecture, and technical challenges overcome.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Physics Engine</span>
+                                <span class="tag">C++</span>
+                                <span class="tag">Performance</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Project</a>
+                                <a href="#" class="project-link">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Interested in My Work?</h2>
+            <p>Let's discuss how I can help bring your game development vision to life.</p>
+            <a href="mailto:contact@example.com" class="btn btn-primary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ryan Thompson</h3>
+                    <p>Game Developer & Programmer</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ryan Thompson. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
