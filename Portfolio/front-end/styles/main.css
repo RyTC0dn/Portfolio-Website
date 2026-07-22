@@ -291,7 +291,13 @@ body {
 }
 
 .project-image.placeholder {
-    content: '[Image]';
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path d="M0,300 Q300,200 600,300 T1200,300" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/></svg>');
+    background-size: cover;
+    background-position: center;
 }
 
 .project-preview-card h3 {
